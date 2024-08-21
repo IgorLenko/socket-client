@@ -10,7 +10,7 @@ import emojiIcon from "../../assets/images/emoji-icon.svg";
 import { Messages } from "../Messages";
 import { Menu } from "../Menu";
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://socket-server-inwf.onrender.com");
 const MESSAGE = "message";
 
 export const Chat = () => {
